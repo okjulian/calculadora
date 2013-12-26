@@ -1,12 +1,39 @@
+.calculadora {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+}
+.fila {
+    display: flex;
+    width: 400px;
+    height: 100px;
+}
 .led {
-    background: #97e0ea;
-    color: #004f5a;
+    width: 400px;
+    height: 100px;
+    background: #313131;
+    color: rgb(244, 244, 244);
     border-radius: 5px;
     text-align: right;
+    font-size: 2em;
+}
+.tecla {
+    width: 100px;
+    background-color: rgb(244, 244, 244);
+}
+.tecla-principal {
+    background-color: rgb(61, 180, 216);
 }
 .numero {
-    background-color: #f0fdff;
-    color: rgb(1, 1, 1);
+    background-color: #fff;
+}
+.signo {
+    background-color: #b4b3b3;
+}
+.franja {
+    background-color: rgb(227, 0, 0);
+    color: rgb(244, 244, 244);
 }
 .resultado {
     margin-right: 1em;
