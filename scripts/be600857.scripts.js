@@ -1,0 +1,1 @@
+"use strict";angular.module("calculadoraApp",[]),angular.module("calculadoraApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]);
